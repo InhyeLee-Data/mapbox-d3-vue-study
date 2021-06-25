@@ -4,6 +4,10 @@ This project follows Alec Barrett's Parsons/MSDV Major Studio 2 Example
 
 In this version, a separate component is created for a d3-geo instance, yet the mapboxgl instance is still part of the main App.vue. 
 
+## Perks
+You need to have .env file in your root directory, in order to use to the mapbox access token. 
+Dependencies can be checked inside package.json file
+
 ## Project setup
 ```
 npm install

@@ -2,7 +2,9 @@
 It is a project, following Alec Barrett's MSDV Major Studio 2 Example
 - Using d3-geo and mapbox together on the same page of vue: https://github.com/anbnyc/major-studio-2-sp21/tree/main/05-geo 
 
-In this version, a separate component is created for a d3-geo instance, yet the mapboxgl instance is still part of the main App.vue. 
+In this version, both d3-geo and mapbox components are existent out of the App.vue.
+Parent-child communication is crucial in this process, because both child components have to receive data and data change from the parent. 
+Reference: https://medium.com/js-dojo/component-communication-in-vue-js-ca8b591d7efa 
 
 ## Perks
 You need to have .env file in your root directory, in order to use to the mapbox access token. 

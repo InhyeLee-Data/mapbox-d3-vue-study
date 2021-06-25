@@ -1,5 +1,5 @@
 # vue-d3-geo (1)
-It is a project, following Alec Barrett's MSDV Major Studio 2 Example
+This project follows Alec Barrett's Parsons/MSDV Major Studio 2 Example
 - Using d3-geo and mapbox together on the same page of vue: https://github.com/anbnyc/major-studio-2-sp21/tree/main/05-geo 
 
 In this version, a separate component is created for a d3-geo instance, yet the mapboxgl instance is still part of the main App.vue. 
